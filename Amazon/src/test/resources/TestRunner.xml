@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Automation Script" parallel="true">
+
+    <test name="Amazon Home">
+
+        <parameter name="useCloudEnv" value="false"/>
+        <parameter name="cloudEnvName" value="browserstack"/>
+        <!--<parameter name="cloudEnvName" value="saucelab"/>-->
+<!--        <parameter name="os" value="windows"/>-->
+        <parameter name="os" value="OS X"/>
+<!--        <parameter name="os_version" value="10"/>-->
+        <parameter name="os_version" value="Sierra"/>
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="80"/>
+        <parameter name="url" value="https://www.amazon.com"/>
+
+        <classes>
+            <class name="home.TestHomePage"/>
+<!--            <class name="home.TestSearchPage"/>-->
+        </classes>
+
+    </test>
+
+
+
+<!--for cross browser testing-->
+
+    <!--    <test name="Amazon Home using firefox">-->
+
+    <!--        <parameter name="useCloudEnv" value="true"/>-->
+    <!--        <parameter name="cloudEnvName" value="browserstack"/>-->
+    <!--        &lt;!&ndash;<parameter name="cloudEnvName" value="saucelab"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;        <parameter name="os" value="windows"/>&ndash;&gt;-->
+    <!--        <parameter name="os" value="OS X"/>-->
+    <!--        <parameter name="os_version" value="10"/>-->
+    <!--        &lt;!&ndash;<parameter name="os_version" value="Sierra"/>&ndash;&gt;-->
+    <!--        <parameter name="browserName" value="firefox"/>-->
+    <!--        <parameter name="browserVersion" value="100"/>-->
+    <!--        <parameter name="url" value="https://www.amazon.com"/>-->
+
+<!--    <classes>-->
+<!--        <class name="home.TestAmazonBlogPage"/>-->
+<!--        <class name="home.TestAmazonBlogPage"/>-->
+<!--        <class name="home.TestAmazonBlogPage"/>-->
+<!--        <class name="home.TestAmazonBlogPage"/>-->
+<!--        <class name="home.TestAmazonBlogPage"/>-->
+<!--    </classes>-->
+
+    <!--    </test>-->
+
+
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+
+<!--<suite name="LetsKodeIt Automation Script">-->
+
+
+<!--    <test name="JQueryUI Home">-->
+
+<!--        <parameter name="useCloudEnv" value="false"/>-->
+<!--        <parameter name="cloudEnvName" value="browserstack"/>-->
+<!--        &lt;!&ndash;<parameter name="cloudEnvName" value="saucelab"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;    <parameter name="os" value="windows"/>&ndash;&gt;-->
+<!--        <parameter name="os" value="OS X"/>-->
+<!--        &lt;!&ndash;        <parameter name="os_version" value="10"/>&ndash;&gt;-->
+<!--        <parameter name="os_version" value="Sierra"/>-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="79"/>-->
+<!--        <parameter name="url" value="https://learn.letskodeit.com/"/>-->
+
+<!--        <classes>-->
+<!--            <class name="testHome.TestHomepage"/>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+
+
+
+
+
+<!--    &lt;!&ndash;    <test name="Google Home">&ndash;&gt;-->
+
+<!--    &lt;!&ndash;        <parameter name="useCloudEnv" value="false"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <parameter name="cloudEnvName" value="browserstack"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;        &lt;!&ndash;<parameter name="cloudEnvName" value="saucelab"/>&ndash;&gt;&ndash;&gt;-->
+<!--    &lt;!&ndash;        &lt;!&ndash;    <parameter name="os" value="windows"/>&ndash;&gt;&ndash;&gt;-->
+<!--    &lt;!&ndash;        <parameter name="os" value="OS X"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;        &lt;!&ndash;        <parameter name="os_version" value="10"/>&ndash;&gt;&ndash;&gt;-->
+<!--    &lt;!&ndash;        <parameter name="os_version" value="Sierra"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <parameter name="browserName" value="chrome"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <parameter name="browserVersion" value="79"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <parameter name="url" value="https://google.com/"/>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <class name="testhomepage.TestHomePage"></class>&ndash;&gt;-->
+<!--    &lt;!&ndash;        </classes>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    </test>&ndash;&gt;-->
+
+
+
+<!--</suite>-->
